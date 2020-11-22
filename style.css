@@ -1,0 +1,138 @@
+body {
+  font-family: "Avenir Next";
+    background-color: #c3c3c3;
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+ background-color: #db2d4a;
+  color: #fff;
+  height: 90px;
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+a:link {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+a:visited {
+  color: white;
+  background-color: transparent;
+  text-decoration: none;
+}
+
+.header-logo {
+  float: left;
+  font-size: 36px;
+  padding: 20px 0px 20px 40px;
+}
+.header-head {
+  float: left;
+  font-size: 36px;
+  padding: 20px;
+}
+.header-list li {
+  float: right;
+  padding: 20px 20px;
+  background-color: #2f5167;
+  display: inline-block;
+}
+
+.main {
+  /*padding:120px 0px 20px 40px;*/
+  padding-top: 120px;
+  padding-left: 40px;
+  padding-right: 40px;
+  
+
+}
+
+.copy-container h1 {
+  font-size: 100px;
+  color: #db2d4a;
+ 
+}
+
+.copy-container h2 {
+  font-size: 20px;
+  font-family: "Avenir Next";
+  padding-left: 60px;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-right: 100px;
+  background-color: white;
+  border-radius: 5px;
+    color: #db2d4a;
+}
+
+.copy-container span {
+  color: #ff4a4a;
+}
+
+.contents {
+  height: 500px;
+  /* Change the margin-top property to 100px */
+  margin-top: 100px;
+  
+}
+
+.section-title {
+  border-bottom: 2px solid #dee7ec;
+  /* Change the font-size to 28px */
+  font-size: 28px;
+  
+  /* Change the padding-bottom property to 15px */
+  padding-bottom: 15px;
+  
+  /* Change the margin-bottom property to 50px */
+  margin-bottom: 50px;
+  
+}
+
+.contents-item {
+  float: left;
+  /* Change the margin-right property to 40px */
+  margin-right: 40px;
+  
+}
+
+/* Change the font-size and margin-top of <p> tags within contents-item */
+.contents-item p{
+  font-size: 24px;
+  margin-top: 30px;
+}
+
+.footer {
+  background-color: #2f5167;
+  color: #fff;
+  height: 18px;
+  padding: 15px;
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  
+}
+
+.footer-logo {
+  font-size: 15px;
+  text-align: center;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  padding-bottom: 20px;
+}
+
